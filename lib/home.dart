@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:package_riverpod_flutter_counter/providers/counter_provider.dart';
 
- final counterProvider = StateNotifierProvider<CounterProvider, int>((ref) =>CounterProvider());
+
 
 class MyHomePage extends StatelessWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
